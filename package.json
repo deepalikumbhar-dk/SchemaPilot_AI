@@ -1,0 +1,33 @@
+{
+  "name": "schemapilot-ai",
+  "version": "1.0.0",
+  "description": "AI-powered BRD to Snowflake DDL generator — Jade Global",
+  "private": true,
+  "engines": {
+    "node": ">=18.x",
+    "npm": ">=9.x"
+  },
+  "scripts": {
+    "dev":     "concurrently \"npm run server\" \"npm run client\"",
+    "client":  "vite",
+    "server":  "node backend/server.js",
+    "build":   "vite build",
+    "start":   "node backend/server.js",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "axios":         "^1.6.0",
+    "cors":          "^2.8.5",
+    "dotenv":        "^16.3.1",
+    "express":       "^4.18.2",
+    "openai":        "^4.20.0",
+    "react":         "^18.2.0",
+    "react-dom":     "^18.2.0",
+    "snowflake-sdk": "^1.10.0"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "^4.2.0",
+    "concurrently":         "^8.2.0",
+    "vite":                 "^5.0.0"
+  }
+}
