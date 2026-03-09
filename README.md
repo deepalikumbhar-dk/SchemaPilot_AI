@@ -2,6 +2,11 @@
 
 **SchemaPilot AI** is an enterprise-grade, AI-powered Business Requirements Document (BRD) to Snowflake DDL generator, built and maintained by **Jade Global**. It transforms plain-language BRDs into production-ready Snowflake SQL — including `CREATE TABLE`, `ALTER TABLE`, stored procedures, tasks, streams, and views — in a three-step automated pipeline.
 
+## ✨ Link To App
+
+  https://schemapilotai-production.up.railway.app/
+  
+
 ---
 
 ## ✨ Features
